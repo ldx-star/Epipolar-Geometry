@@ -1,0 +1,13 @@
+# ninja log v5
+1	345	1705396575849509533	CMakeFiles/Test_Camera.dir/test_camera.cpp.o	9af1a4348ce78b8
+345	383	1705396575885509828	Test_Camera	1cdaae77c62f17de
+0	282	1705396587473604216	CMakeFiles/Test_Camera.dir/test_camera.cpp.o	9af1a4348ce78b8
+282	306	1705396587497604411	Test_Camera	1cdaae77c62f17de
+1	285	1705396684374365187	CMakeFiles/Test_Camera.dir/test_camera.cpp.o	9af1a4348ce78b8
+285	311	1705396684402365400	Test_Camera	1cdaae77c62f17de
+0	290	1705396691682420677	CMakeFiles/Test_Camera.dir/test_camera.cpp.o	9af1a4348ce78b8
+290	315	1705396691710420889	Test_Camera	1cdaae77c62f17de
+0	279	1705396714310590933	CMakeFiles/Test_Camera.dir/test_camera.cpp.o	9af1a4348ce78b8
+279	305	1705396714334591113	Test_Camera	1cdaae77c62f17de
+0	327	1705397311174951118	CMakeFiles/Test_Camera.dir/test_camera.cpp.o	9af1a4348ce78b8
+327	358	1705397311206951140	Test_Camera	1cdaae77c62f17de
