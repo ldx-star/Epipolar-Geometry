@@ -90,7 +90,5 @@ int main() {
     Eigen::Vector3d pos =cam.pos_in_world();
     std::cout<<"cam position in world is:\n "<< pos[0] << " " << pos[1] << " " << pos[2] <<std::endl;
     std::cout<<"result should be: \n -0.0948544 -0.935689 0.0943652\n\n";
-
-
     return 0;
 }

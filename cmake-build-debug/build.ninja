@@ -72,6 +72,38 @@ build Test_Camera: CXX_EXECUTABLE_LINKER__Test_Camera_Debug CMakeFiles/Test_Came
   TARGET_FILE = Test_Camera
   TARGET_PDB = Test_Camera.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Test_Fundamental_8_point
+
+
+#############################################
+# Order-only phony target for Test_Fundamental_8_point
+
+build cmake_object_order_depends_target_Test_Fundamental_8_point: phony || CMakeFiles/Test_Fundamental_8_point.dir
+
+build CMakeFiles/Test_Fundamental_8_point.dir/test_fundamental_8_point.cpp.o: CXX_COMPILER__Test_Fundamental_8_point_unscanned_Debug /media/ldx/sd1/三维重建/Epipolar$ Geometry/test_fundamental_8_point.cpp || cmake_object_order_depends_target_Test_Fundamental_8_point
+  DEP_FILE = CMakeFiles/Test_Fundamental_8_point.dir/test_fundamental_8_point.cpp.o.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  INCLUDES = -I/usr/include/eigen3
+  OBJECT_DIR = CMakeFiles/Test_Fundamental_8_point.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_Fundamental_8_point.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test_Fundamental_8_point
+
+
+#############################################
+# Link the executable Test_Fundamental_8_point
+
+build Test_Fundamental_8_point: CXX_EXECUTABLE_LINKER__Test_Fundamental_8_point_Debug CMakeFiles/Test_Fundamental_8_point.dir/test_fundamental_8_point.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/Test_Fundamental_8_point.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Test_Fundamental_8_point
+  TARGET_PDB = Test_Fundamental_8_point.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -106,7 +138,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /media/ldx/sd1/三维重建/Epipolar Geometry/cmake-build-debug
 
-build all: phony Test_Camera
+build all: phony Test_Camera Test_Fundamental_8_point
 
 # =============================================================================
 # Built-in targets
