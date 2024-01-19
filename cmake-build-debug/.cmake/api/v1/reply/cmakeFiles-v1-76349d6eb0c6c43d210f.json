@@ -137,6 +137,32 @@
 		{
 			"isExternal" : true,
 			"path" : "/usr/lib/cmake/eigen3/Eigen3Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/opencv4/OpenCVModules.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

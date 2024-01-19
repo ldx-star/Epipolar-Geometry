@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -41,15 +43,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Test_Camera::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Test_Camera-Debug-43c909467d1c33122a02.json",
+					"jsonFile" : "target-Test_Camera-Debug-83a4c9615891555a12ca.json",
 					"name" : "Test_Camera",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "Test_Fundamental_8_point::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Test_Fundamental_8_point-Debug-f2e534137b87d948a7be.json",
+					"jsonFile" : "target-Test_Fundamental_8_point-Debug-e2995a634ec54ddb077e.json",
 					"name" : "Test_Fundamental_8_point",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Test_Fundamental_Ransac::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test_Fundamental_Ransac-Debug-78fe9cbbdddfe9a142b8.json",
+					"name" : "Test_Fundamental_Ransac",
 					"projectIndex" : 0
 				}
 			]
