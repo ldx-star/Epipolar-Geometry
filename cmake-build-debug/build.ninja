@@ -85,7 +85,7 @@ build cmake_object_order_depends_target_Test_Fundamental_8_point: phony || CMake
 build CMakeFiles/Test_Fundamental_8_point.dir/test_fundamental_8_point.cpp.o: CXX_COMPILER__Test_Fundamental_8_point_unscanned_Debug /media/ldx/sd1/三维重建/Epipolar$ Geometry/test_fundamental_8_point.cpp || cmake_object_order_depends_target_Test_Fundamental_8_point
   DEP_FILE = CMakeFiles/Test_Fundamental_8_point.dir/test_fundamental_8_point.cpp.o.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  INCLUDES = -I/usr/include/eigen3
+  INCLUDES = -I/usr/include/eigen3 -isystem /usr/local/include/opencv4
   OBJECT_DIR = CMakeFiles/Test_Fundamental_8_point.dir
   OBJECT_FILE_DIR = CMakeFiles/Test_Fundamental_8_point.dir
 
@@ -97,8 +97,9 @@ build CMakeFiles/Test_Fundamental_8_point.dir/test_fundamental_8_point.cpp.o: CX
 #############################################
 # Link the executable Test_Fundamental_8_point
 
-build Test_Fundamental_8_point: CXX_EXECUTABLE_LINKER__Test_Fundamental_8_point_Debug CMakeFiles/Test_Fundamental_8_point.dir/test_fundamental_8_point.cpp.o
+build Test_Fundamental_8_point: CXX_EXECUTABLE_LINKER__Test_Fundamental_8_point_Debug CMakeFiles/Test_Fundamental_8_point.dir/test_fundamental_8_point.cpp.o | /usr/local/lib/libopencv_gapi.so.4.6.0 /usr/local/lib/libopencv_highgui.so.4.6.0 /usr/local/lib/libopencv_ml.so.4.6.0 /usr/local/lib/libopencv_objdetect.so.4.6.0 /usr/local/lib/libopencv_photo.so.4.6.0 /usr/local/lib/libopencv_stitching.so.4.6.0 /usr/local/lib/libopencv_video.so.4.6.0 /usr/local/lib/libopencv_videoio.so.4.6.0 /usr/local/lib/libopencv_imgcodecs.so.4.6.0 /usr/local/lib/libopencv_dnn.so.4.6.0 /usr/local/lib/libopencv_calib3d.so.4.6.0 /usr/local/lib/libopencv_features2d.so.4.6.0 /usr/local/lib/libopencv_flann.so.4.6.0 /usr/local/lib/libopencv_imgproc.so.4.6.0 /usr/local/lib/libopencv_core.so.4.6.0
   FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libopencv_gapi.so.4.6.0  /usr/local/lib/libopencv_highgui.so.4.6.0  /usr/local/lib/libopencv_ml.so.4.6.0  /usr/local/lib/libopencv_objdetect.so.4.6.0  /usr/local/lib/libopencv_photo.so.4.6.0  /usr/local/lib/libopencv_stitching.so.4.6.0  /usr/local/lib/libopencv_video.so.4.6.0  /usr/local/lib/libopencv_videoio.so.4.6.0  /usr/local/lib/libopencv_imgcodecs.so.4.6.0  /usr/local/lib/libopencv_dnn.so.4.6.0  /usr/local/lib/libopencv_calib3d.so.4.6.0  /usr/local/lib/libopencv_features2d.so.4.6.0  /usr/local/lib/libopencv_flann.so.4.6.0  /usr/local/lib/libopencv_imgproc.so.4.6.0  /usr/local/lib/libopencv_core.so.4.6.0
   OBJECT_DIR = CMakeFiles/Test_Fundamental_8_point.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -138,12 +139,45 @@ build Test_Fundamental_Ransac: CXX_EXECUTABLE_LINKER__Test_Fundamental_Ransac_De
   TARGET_FILE = Test_Fundamental_Ransac
   TARGET_PDB = Test_Fundamental_Ransac.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Test_Pose_Estimation
+
+
+#############################################
+# Order-only phony target for Test_Pose_Estimation
+
+build cmake_object_order_depends_target_Test_Pose_Estimation: phony || CMakeFiles/Test_Pose_Estimation.dir
+
+build CMakeFiles/Test_Pose_Estimation.dir/test_pose_estimation.cpp.o: CXX_COMPILER__Test_Pose_Estimation_unscanned_Debug /media/ldx/sd1/三维重建/Epipolar$ Geometry/test_pose_estimation.cpp || cmake_object_order_depends_target_Test_Pose_Estimation
+  DEP_FILE = CMakeFiles/Test_Pose_Estimation.dir/test_pose_estimation.cpp.o.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  INCLUDES = -I/usr/include/eigen3 -isystem /usr/local/include/opencv4
+  OBJECT_DIR = CMakeFiles/Test_Pose_Estimation.dir
+  OBJECT_FILE_DIR = CMakeFiles/Test_Pose_Estimation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test_Pose_Estimation
+
+
+#############################################
+# Link the executable Test_Pose_Estimation
+
+build Test_Pose_Estimation: CXX_EXECUTABLE_LINKER__Test_Pose_Estimation_Debug CMakeFiles/Test_Pose_Estimation.dir/test_pose_estimation.cpp.o | /usr/local/lib/libopencv_gapi.so.4.6.0 /usr/local/lib/libopencv_highgui.so.4.6.0 /usr/local/lib/libopencv_ml.so.4.6.0 /usr/local/lib/libopencv_objdetect.so.4.6.0 /usr/local/lib/libopencv_photo.so.4.6.0 /usr/local/lib/libopencv_stitching.so.4.6.0 /usr/local/lib/libopencv_video.so.4.6.0 /usr/local/lib/libopencv_videoio.so.4.6.0 /usr/local/lib/libopencv_imgcodecs.so.4.6.0 /usr/local/lib/libopencv_dnn.so.4.6.0 /usr/local/lib/libopencv_calib3d.so.4.6.0 /usr/local/lib/libopencv_features2d.so.4.6.0 /usr/local/lib/libopencv_flann.so.4.6.0 /usr/local/lib/libopencv_imgproc.so.4.6.0 /usr/local/lib/libopencv_core.so.4.6.0
+  FLAGS = -g
+  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libopencv_gapi.so.4.6.0  /usr/local/lib/libopencv_highgui.so.4.6.0  /usr/local/lib/libopencv_ml.so.4.6.0  /usr/local/lib/libopencv_objdetect.so.4.6.0  /usr/local/lib/libopencv_photo.so.4.6.0  /usr/local/lib/libopencv_stitching.so.4.6.0  /usr/local/lib/libopencv_video.so.4.6.0  /usr/local/lib/libopencv_videoio.so.4.6.0  /usr/local/lib/libopencv_imgcodecs.so.4.6.0  /usr/local/lib/libopencv_dnn.so.4.6.0  /usr/local/lib/libopencv_calib3d.so.4.6.0  /usr/local/lib/libopencv_features2d.so.4.6.0  /usr/local/lib/libopencv_flann.so.4.6.0  /usr/local/lib/libopencv_imgproc.so.4.6.0  /usr/local/lib/libopencv_core.so.4.6.0
+  OBJECT_DIR = CMakeFiles/Test_Pose_Estimation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Test_Pose_Estimation
+  TARGET_PDB = Test_Pose_Estimation.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/media/ldx/sd1/三维重建/Epipolar Geometry/cmake-build-debug" && /snap/clion/261/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/media/ldx/sd1/三维重建/Epipolar Geometry/cmake-build-debug" && /snap/clion/263/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -154,7 +188,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/media/ldx/sd1/三维重建/Epipolar Geometry/cmake-build-debug" && /snap/clion/261/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/media/ldx/sd1/三维重建/Epipolar Geometry" -B"/media/ldx/sd1/三维重建/Epipolar Geometry/cmake-build-debug"
+  COMMAND = cd "/media/ldx/sd1/三维重建/Epipolar Geometry/cmake-build-debug" && /snap/clion/263/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/media/ldx/sd1/三维重建/Epipolar Geometry" -B"/media/ldx/sd1/三维重建/Epipolar Geometry/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -172,7 +206,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /media/ldx/sd1/三维重建/Epipolar Geometry/cmake-build-debug
 
-build all: phony Test_Camera Test_Fundamental_8_point Test_Fundamental_Ransac
+build all: phony Test_Camera Test_Fundamental_8_point Test_Fundamental_Ransac Test_Pose_Estimation
 
 # =============================================================================
 # Built-in targets
@@ -181,14 +215,14 @@ build all: phony Test_Camera Test_Fundamental_8_point Test_Fundamental_Ransac
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /media/ldx/sd1/三维重建/Epipolar$ Geometry/CMakeLists.txt /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake /usr/local/lib/cmake/opencv4/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /media/ldx/sd1/三维重建/Epipolar$ Geometry/CMakeLists.txt /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake /usr/local/lib/cmake/opencv4/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /media/ldx/sd1/三维重建/Epipolar$ Geometry/CMakeLists.txt /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/clion/261/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake /usr/local/lib/cmake/opencv4/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build /media/ldx/sd1/三维重建/Epipolar$ Geometry/CMakeLists.txt /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-C.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/Linux.cmake /snap/clion/263/bin/cmake/linux/x64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /usr/lib/cmake/eigen3/Eigen3Config.cmake /usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake /usr/lib/cmake/eigen3/Eigen3Targets.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake /usr/local/lib/cmake/opencv4/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################
