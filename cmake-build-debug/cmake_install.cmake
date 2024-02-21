@@ -1,4 +1,4 @@
-# Install script for directory: /media/ldx/sd1/三维重建/Epipolar Geometry
+# Install script for directory: /media/ldx/sd1/学习/三维重建/Epipolar Geometry
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/ldx/sd1/三维重建/Epipolar Geometry/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/ldx/sd1/学习/三维重建/Epipolar Geometry/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
